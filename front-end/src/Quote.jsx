@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Button from "./Button";
 
 function Quote() {
   const [phrase, setPhrase] = useState("");
